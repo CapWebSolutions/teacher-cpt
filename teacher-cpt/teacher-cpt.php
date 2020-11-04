@@ -14,9 +14,9 @@
 namespace CapWeb\CapWebTeachers;
 
 // Get all the things
-require_once( dirname( __FILE__ ) . '/post-types.php' );
-require_once( dirname( __FILE__ ) . '/metaboxes.php' );
-require_once( dirname( __FILE__ ) . '/helper-functions.php' );
+require_once( dirname( __FILE__ ) . '/lib/post-types.php' );
+require_once( dirname( __FILE__ ) . '/lib/metaboxes.php' );
+require_once( dirname( __FILE__ ) . '/lib/helper-functions.php' );
 
 
 // Load Translations

@@ -18,8 +18,8 @@ namespace CapWeb\CapWebTeachers;
  */
 
 function enqueue_capweb_teachers_style() {
-	$css_file = apply_filters( 'capweb_teacher_css_file', dirname( __FILE__ ) . '/teacher-cpt.css' );
-	wp_enqueue_style( 'capweb-teacher-style', dirname( __FILE__ ) . '/teacher-cpt.css', array(), '1.0.0' );
+	$css_file = apply_filters( 'capweb_teacher_css_file', dirname( __FILE__ ) . '/assets/teacher-cpt.css' );
+	wp_enqueue_style( 'capweb-teacher-style', dirname( __FILE__ ) . '/assets/teacher-cpt.css', array(), '1.0.0' );
 }
 /**
  * Adds new image sizes.
